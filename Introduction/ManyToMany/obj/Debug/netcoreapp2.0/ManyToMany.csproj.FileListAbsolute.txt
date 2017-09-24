@@ -1,0 +1,11 @@
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\ManyToMany\bin\Debug\netcoreapp2.0\ManyToMany.deps.json
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\ManyToMany\bin\Debug\netcoreapp2.0\ManyToMany.runtimeconfig.json
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\ManyToMany\bin\Debug\netcoreapp2.0\ManyToMany.runtimeconfig.dev.json
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\ManyToMany\bin\Debug\netcoreapp2.0\ManyToMany.dll
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\ManyToMany\obj\Debug\netcoreapp2.0\ManyToMany.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\ManyToMany\obj\Debug\netcoreapp2.0\ManyToMany.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\ManyToMany\obj\Debug\netcoreapp2.0\ManyToMany.AssemblyInfoInputs.cache
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\ManyToMany\obj\Debug\netcoreapp2.0\ManyToMany.AssemblyInfo.cs
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\ManyToMany\bin\Debug\netcoreapp2.0\ManyToMany.pdb
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\ManyToMany\obj\Debug\netcoreapp2.0\ManyToMany.dll
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\ManyToMany\obj\Debug\netcoreapp2.0\ManyToMany.pdb

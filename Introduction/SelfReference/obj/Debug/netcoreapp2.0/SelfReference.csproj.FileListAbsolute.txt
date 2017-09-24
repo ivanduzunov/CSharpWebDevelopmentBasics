@@ -1,0 +1,8 @@
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\SelfReference\bin\Debug\netcoreapp2.0\SelfReference.deps.json
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\SelfReference\bin\Debug\netcoreapp2.0\SelfReference.runtimeconfig.json
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\SelfReference\bin\Debug\netcoreapp2.0\SelfReference.runtimeconfig.dev.json
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\SelfReference\bin\Debug\netcoreapp2.0\SelfReference.dll
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\SelfReference\obj\Debug\netcoreapp2.0\SelfReference.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\SelfReference\obj\Debug\netcoreapp2.0\SelfReference.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\SelfReference\obj\Debug\netcoreapp2.0\SelfReference.AssemblyInfoInputs.cache
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\SelfReference\obj\Debug\netcoreapp2.0\SelfReference.AssemblyInfo.cs

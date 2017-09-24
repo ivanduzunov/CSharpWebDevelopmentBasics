@@ -1,0 +1,11 @@
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\OneToMany\bin\Debug\netcoreapp1.1\OneToMany.deps.json
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\OneToMany\bin\Debug\netcoreapp1.1\OneToMany.runtimeconfig.json
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\OneToMany\bin\Debug\netcoreapp1.1\OneToMany.runtimeconfig.dev.json
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\OneToMany\bin\Debug\netcoreapp1.1\OneToMany.dll
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\OneToMany\obj\Debug\netcoreapp1.1\OneToMany.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\OneToMany\obj\Debug\netcoreapp1.1\OneToMany.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\OneToMany\obj\Debug\netcoreapp1.1\OneToMany.AssemblyInfoInputs.cache
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\OneToMany\obj\Debug\netcoreapp1.1\OneToMany.AssemblyInfo.cs
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\OneToMany\bin\Debug\netcoreapp1.1\OneToMany.pdb
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\OneToMany\obj\Debug\netcoreapp1.1\OneToMany.dll
+C:\Users\Ivan\documents\visual studio 2017\Projects\Introduction\OneToMany\obj\Debug\netcoreapp1.1\OneToMany.pdb
