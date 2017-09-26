@@ -1,0 +1,11 @@
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\HTTPProtocol\02.ValidateURL\bin\Debug\netcoreapp2.0\02.ValidateURL.deps.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\HTTPProtocol\02.ValidateURL\bin\Debug\netcoreapp2.0\02.ValidateURL.runtimeconfig.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\HTTPProtocol\02.ValidateURL\bin\Debug\netcoreapp2.0\02.ValidateURL.runtimeconfig.dev.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\HTTPProtocol\02.ValidateURL\bin\Debug\netcoreapp2.0\02.ValidateURL.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\HTTPProtocol\02.ValidateURL\bin\Debug\netcoreapp2.0\02.ValidateURL.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\HTTPProtocol\02.ValidateURL\obj\Debug\netcoreapp2.0\02.ValidateURL.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\HTTPProtocol\02.ValidateURL\obj\Debug\netcoreapp2.0\02.ValidateURL.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\HTTPProtocol\02.ValidateURL\obj\Debug\netcoreapp2.0\02.ValidateURL.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\HTTPProtocol\02.ValidateURL\obj\Debug\netcoreapp2.0\02.ValidateURL.AssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\HTTPProtocol\02.ValidateURL\obj\Debug\netcoreapp2.0\02.ValidateURL.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\HTTPProtocol\02.ValidateURL\obj\Debug\netcoreapp2.0\02.ValidateURL.pdb

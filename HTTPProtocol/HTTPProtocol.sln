@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.URLDecode", "01.URLDecode\01.URLDecode.csproj", "{A581A8F7-606A-44AA-A274-FC90ED197AFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ValidateURL", "02.ValidateURL\02.ValidateURL.csproj", "{1A25A36B-C723-41AF-98F8-507165D61BBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A581A8F7-606A-44AA-A274-FC90ED197AFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A581A8F7-606A-44AA-A274-FC90ED197AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A581A8F7-606A-44AA-A274-FC90ED197AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A581A8F7-606A-44AA-A274-FC90ED197AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A25A36B-C723-41AF-98F8-507165D61BBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A25A36B-C723-41AF-98F8-507165D61BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A25A36B-C723-41AF-98F8-507165D61BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A25A36B-C723-41AF-98F8-507165D61BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9F3CE13-5429-4A7A-9BD3-AE52BA12293A}
+	EndGlobalSection
+EndGlobal
