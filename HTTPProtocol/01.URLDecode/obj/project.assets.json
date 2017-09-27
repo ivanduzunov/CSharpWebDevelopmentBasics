@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\HTTPProtocol\\01.URLDecode\\01.URLDecode.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\HTTPProtocol\\01.URLDecode\\01.URLDecode.csproj",
       "projectName": "01.URLDecode",
-      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\HTTPProtocol\\01.URLDecode\\01.URLDecode.csproj",
+      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\HTTPProtocol\\01.URLDecode\\01.URLDecode.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\HTTPProtocol\\01.URLDecode\\obj\\",
+      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\HTTPProtocol\\01.URLDecode\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

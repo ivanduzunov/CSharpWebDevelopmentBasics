@@ -20,5 +20,11 @@ namespace StudentSystem.Models
         public DateTime EndDate { get; set; }
 
         public double Price { get; set; }
+
+        public List<StudentCourse> Students { get; set; }
+
+        public List<Resource> Resources { get; set; }
+
+        public List<Homework> Homeworks { get; set; }
     }
 }

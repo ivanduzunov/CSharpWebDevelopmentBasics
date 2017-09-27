@@ -6,6 +6,9 @@ namespace StudentSystem
     {
         static void Main(string[] args)
         {
+            StudentSystemContext db = new StudentSystemContext();
+
+            db.Database.EnsureCreated();
         }
     }
 }

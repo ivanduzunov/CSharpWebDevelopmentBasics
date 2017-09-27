@@ -18,5 +18,9 @@ namespace StudentSystem.Models
         public DateTime RegistrationDate { get; set; }
 
         public DateTime? BirthDay { get; set; }
+
+        public List<StudentCourse> Courses { get; set; }
+
+        public List<Homework> Homeworks { get; set; }
     }
 }

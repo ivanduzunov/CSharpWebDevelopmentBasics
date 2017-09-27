@@ -6,3 +6,14 @@ C:\Users\Ivan\Documents\Visual Studio 2017\Projects\IntroductionExersise\Student
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\IntroductionExersise\StudentSystem\obj\Debug\netcoreapp2.0\StudentSystem.csproj.CoreCompileInputs.cache
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\IntroductionExersise\StudentSystem\obj\Debug\netcoreapp2.0\StudentSystem.AssemblyInfoInputs.cache
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\IntroductionExersise\StudentSystem\obj\Debug\netcoreapp2.0\StudentSystem.AssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\StudentSystem\bin\Debug\netcoreapp2.0\StudentSystem.deps.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\StudentSystem\bin\Debug\netcoreapp2.0\StudentSystem.runtimeconfig.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\StudentSystem\bin\Debug\netcoreapp2.0\StudentSystem.runtimeconfig.dev.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\StudentSystem\bin\Debug\netcoreapp2.0\StudentSystem.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\StudentSystem\bin\Debug\netcoreapp2.0\StudentSystem.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\StudentSystem\obj\Debug\netcoreapp2.0\StudentSystem.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\StudentSystem\obj\Debug\netcoreapp2.0\StudentSystem.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\StudentSystem\obj\Debug\netcoreapp2.0\StudentSystem.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\StudentSystem\obj\Debug\netcoreapp2.0\StudentSystem.AssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\StudentSystem\obj\Debug\netcoreapp2.0\StudentSystem.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\StudentSystem\obj\Debug\netcoreapp2.0\StudentSystem.pdb

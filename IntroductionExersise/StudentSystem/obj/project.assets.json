@@ -3340,11 +3340,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\IntroductionExersise\\StudentSystem\\StudentSystem.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\IntroductionExersise\\StudentSystem\\StudentSystem.csproj",
       "projectName": "StudentSystem",
-      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\IntroductionExersise\\StudentSystem\\StudentSystem.csproj",
+      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\IntroductionExersise\\StudentSystem\\StudentSystem.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\IntroductionExersise\\StudentSystem\\obj\\",
+      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\IntroductionExersise\\StudentSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

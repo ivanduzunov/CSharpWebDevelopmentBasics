@@ -673,11 +673,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\HTTPProtocol\\02.ValidateURL\\02.ValidateURL.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\HTTPProtocol\\02.ValidateURL\\02.ValidateURL.csproj",
       "projectName": "02.ValidateURL",
-      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\HTTPProtocol\\02.ValidateURL\\02.ValidateURL.csproj",
+      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\HTTPProtocol\\02.ValidateURL\\02.ValidateURL.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\HTTPProtocol\\02.ValidateURL\\obj\\",
+      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\HTTPProtocol\\02.ValidateURL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
