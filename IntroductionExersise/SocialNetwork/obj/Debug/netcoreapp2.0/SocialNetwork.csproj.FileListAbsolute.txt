@@ -1,0 +1,13 @@
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\bin\Debug\netcoreapp2.0\SocialNetwork.deps.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\bin\Debug\netcoreapp2.0\SocialNetwork.runtimeconfig.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\bin\Debug\netcoreapp2.0\SocialNetwork.runtimeconfig.dev.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\bin\Debug\netcoreapp2.0\SocialNetwork.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\bin\Debug\netcoreapp2.0\SocialNetwork.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\obj\Debug\netcoreapp2.0\SocialNetwork.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\obj\Debug\netcoreapp2.0\SocialNetwork.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\obj\Debug\netcoreapp2.0\SocialNetwork.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\obj\Debug\netcoreapp2.0\SocialNetwork.AssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\obj\Debug\netcoreapp2.0\SocialNetwork.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\obj\Debug\netcoreapp2.0\SocialNetwork.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\bin\Debug\netcoreapp2.0\SocialNetwork.Data.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\IntroductionExersise\SocialNetwork\bin\Debug\netcoreapp2.0\SocialNetwork.Data.pdb
