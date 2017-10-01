@@ -53,8 +53,7 @@ namespace _02.SliceFile
 
                     using (var dest = new FileStream(filePath, FileMode.Create))
                     {
-                        //new byte[BufferLenght];
-                        byte[] buffer = new byte[filePath.Length];
+                        byte[] buffer = new byte[partLenght];
 
                         while (currentByte <= partLenght * i)
                         {

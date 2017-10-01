@@ -9,3 +9,14 @@ C:\Users\Ivan\Documents\Visual Studio 2017\Projects\AsynchronousProgramming\02.S
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\AsynchronousProgramming\02.SliceFile\obj\Debug\netcoreapp2.0\02.SliceFile.AssemblyInfo.cs
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\AsynchronousProgramming\02.SliceFile\obj\Debug\netcoreapp2.0\02.SliceFile.dll
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\AsynchronousProgramming\02.SliceFile\obj\Debug\netcoreapp2.0\02.SliceFile.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\AsynchronousProgramming\02.SliceFile\bin\Debug\netcoreapp2.0\02.SliceFile.deps.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\AsynchronousProgramming\02.SliceFile\bin\Debug\netcoreapp2.0\02.SliceFile.runtimeconfig.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\AsynchronousProgramming\02.SliceFile\bin\Debug\netcoreapp2.0\02.SliceFile.runtimeconfig.dev.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\AsynchronousProgramming\02.SliceFile\bin\Debug\netcoreapp2.0\02.SliceFile.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\AsynchronousProgramming\02.SliceFile\bin\Debug\netcoreapp2.0\02.SliceFile.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\AsynchronousProgramming\02.SliceFile\obj\Debug\netcoreapp2.0\02.SliceFile.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\AsynchronousProgramming\02.SliceFile\obj\Debug\netcoreapp2.0\02.SliceFile.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\AsynchronousProgramming\02.SliceFile\obj\Debug\netcoreapp2.0\02.SliceFile.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\AsynchronousProgramming\02.SliceFile\obj\Debug\netcoreapp2.0\02.SliceFile.AssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\AsynchronousProgramming\02.SliceFile\obj\Debug\netcoreapp2.0\02.SliceFile.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\AsynchronousProgramming\02.SliceFile\obj\Debug\netcoreapp2.0\02.SliceFile.pdb
