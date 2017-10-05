@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
+using System.Net;
 using System.Text;
 using WebServer.Server.Common;
 using WebServer.Server.Enums;
@@ -67,8 +68,11 @@ namespace WebServer.Server.HTTP
             this.Path = this.ParsePath(this.Url);
             this.ParseHeaders(requestLines);
             this.ParseParameters();
+            this.ParseFormData(requestLines.Last());
 
         }
+
+
 
         private HttpRequestMethod ParseMethod(string method)
         {
@@ -76,7 +80,7 @@ namespace WebServer.Server.HTTP
             {
                 return Enum.Parse<HttpRequestMethod>(method, true);
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 throw new BadRequestException("Invalid request method.");
             }
@@ -118,12 +122,17 @@ namespace WebServer.Server.HTTP
 
         private void ParseParameters()
         {
-            if (this.Url.Contains('?'))
+            if (!this.Url.Contains('?'))
             {
                 return;
             }
 
-            var query = this.Url.Split(new[] { '?' }, StringSplitOptions.RemoveEmptyEntries).Last();
+            this.ParseQuery(this.Url, this.UrlParameters);
+        }
+
+        private void ParseQuery(string queryString, IDictionary<string, string> dict)
+        {
+            var query = queryString.Split(new[] { '?' }, StringSplitOptions.RemoveEmptyEntries).Last();
 
             if (!query.Contains('='))
             {
@@ -136,11 +145,26 @@ namespace WebServer.Server.HTTP
             {
                 var queryKvp = queryPair.Split(new[] { '=' }, StringSplitOptions.RemoveEmptyEntries);
 
-                var queryKey = queryKvp[0];
-                var queryValue = queryKvp[1];
+                if (queryKvp.Length != 2)
+                {
+                    return;
+                }
 
-                // TODO (01:43)
+                var queryKey = WebUtility.UrlDecode(queryKvp[0]);
+                var queryValue = WebUtility.UrlDecode(queryKvp[1]);
+
+                dict.Add(queryKey, queryValue);
             }
+        }
+
+        private void ParseFormData(string formDataLine)
+        {
+            if (this.Method == HttpRequestMethod.Get)
+            {
+                return; 
+            }
+
+            this.ParseQuery(formDataLine, this.QueryParameters);
         }
     }
 }
