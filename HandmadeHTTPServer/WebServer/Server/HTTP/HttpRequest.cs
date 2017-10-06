@@ -127,13 +127,13 @@ namespace WebServer.Server.HTTP
                 return;
             }
 
-            this.ParseQuery(this.Url, this.UrlParameters);
+            var query = this.Url.Split(new[] { '?' }, StringSplitOptions.RemoveEmptyEntries).Last();
+
+            this.ParseQuery(query, this.UrlParameters);
         }
 
-        private void ParseQuery(string queryString, IDictionary<string, string> dict)
-        {
-            var query = queryString.Split(new[] { '?' }, StringSplitOptions.RemoveEmptyEntries).Last();
-
+        private void ParseQuery(string query, IDictionary<string, string> dict)
+        {         
             if (!query.Contains('='))
             {
                 return;

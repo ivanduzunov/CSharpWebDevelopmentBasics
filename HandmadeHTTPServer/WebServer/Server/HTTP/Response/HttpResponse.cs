@@ -1,38 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Net;
 using System.Text;
+using WebServer.Server.Common;
 using WebServer.Server.HTTP.Contracts;
 
 namespace WebServer.Server.HTTP.Response
 {
+    using Enums;
+
     public abstract class HttpResponse : IHttpResponse
     {
-        private readonly IView view;
-
-        protected HttpResponse(string redirectUrl)
+        protected HttpResponse()
         {
-            this.HeaderCollection = new HttpHeaderCollection();
-            this.StatusCode = HttpStatusCode.Found;
-            this.AddHeader("Location", redirectUrl);
+            this.Headers = new HttpHeaderCollection();
         }
+       
 
-        protected HttpResponse(HttpStatusCode responseCode, IView view)
+        public HttpHeaderCollection Headers { get; }
+
+        public HttpStatusCode StatusCode { get; protected set; }
+
+        private string StatusCodeMessage => this.StatusCode.ToString();
+
+        public override string ToString()
         {
-            this.HeaderCollection = new HttpHeaderCollection();
-            //todo
-            //todo
-        }
+            var response = new StringBuilder();
 
-        private HttpHeaderCollection HeaderCollection { get; set; }
+            int statusCodeNumber = (int)this.StatusCode;
 
-        private HttpStatusCode StatusCode { get; set; }
+            response.AppendLine($"HTTP/1.1 {statusCodeNumber} {this.StatusCodeMessage}");
 
-        private string StatusMessage => this.StatusCode.ToString();
+            response.AppendLine(this.Headers.ToString());
+            response.AppendLine();
 
-        private void AddHeader(string location, string redirectUrl)
-        {
-            //todo
+            return response.ToString();
         }
     }
 }

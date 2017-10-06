@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using WebServer.Server.Common;
 using WebServer.Server.HTTP.Contracts;
 
 namespace WebServer.Server.HTTP
@@ -9,9 +10,11 @@ namespace WebServer.Server.HTTP
     {
         private readonly IHttpRequest request;
 
-        public HttpContext(string requestString)
+        public HttpContext(IHttpRequest request)
         {
-            this.request = new HttpRequest(requestString);
+            CoreValidator.ThrowIfNull(request, nameof(request));
+
+            this.request = request;
         }
 
         public IHttpRequest Request => this.request;
