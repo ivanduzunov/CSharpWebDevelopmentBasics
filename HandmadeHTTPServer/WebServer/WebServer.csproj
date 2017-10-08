@@ -9,8 +9,6 @@
     <Folder Include="Application\Controllers\" />
     <Folder Include="Application\Views\" />
     <Folder Include="Server\Contacts\" />
-    <Folder Include="Server\Handlers\Contracts\" />
-    <Folder Include="Server\Routing\Contacts\" />
   </ItemGroup>
 
 </Project>
