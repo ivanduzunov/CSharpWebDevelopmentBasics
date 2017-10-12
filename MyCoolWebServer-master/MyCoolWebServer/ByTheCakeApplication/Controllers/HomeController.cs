@@ -14,7 +14,7 @@ namespace MyCoolWebServer.ByTheCakeApplication.Controllers
         public IHttpResponse Index()
         {
             var indexHtml = File.ReadAllText(@"ByTheCakeApplication\Resourses\Home\index.html");
-
+                
             return new ViewResponse
                 (HttpStatusCode.Ok, new IndexView(indexHtml));
         }

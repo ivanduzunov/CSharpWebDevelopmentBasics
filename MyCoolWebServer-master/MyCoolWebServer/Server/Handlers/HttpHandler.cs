@@ -1,4 +1,6 @@
-﻿namespace MyCoolWebServer.Server.Handlers
+﻿using MyCoolWebServer.Server.Http;
+
+namespace MyCoolWebServer.Server.Handlers
 {
     using Common;
     using Contracts;
@@ -20,6 +22,14 @@
 
         public IHttpResponse Handle(IHttpContext context)
         {
+            var loginPath = "/login";
+
+            if (context.Request.Path != loginPath &&
+                !context.Request.Session.Contains(SessionStore.CurrentUserKey))
+            {
+                return new RedirectResponse("/login");
+            }
+
             var requestMethod = context.Request.Method;
             var requestPath = context.Request.Path;
             var registeredRoutes = this.serverRouteConfig.Routes[requestMethod];

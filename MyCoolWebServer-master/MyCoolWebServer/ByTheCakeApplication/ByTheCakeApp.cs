@@ -28,6 +28,15 @@ namespace MyCoolWebServer.ByTheCakeApplication
 
             appRouteConfig.Post
                 ("/search", req => new CakesController().Search(req.FormData["searchName"]));
+
+            appRouteConfig.Get
+                ("/login", req => new AccountController().Login());
+
+            appRouteConfig.Post
+                ("/login", req => new AccountController().Login(req));
+
+            appRouteConfig.Get
+                ("/shopping/add/{(?<id>[0-9]+)}", req => new ShoppingController().AddToCard(req));
         }
     }
 }

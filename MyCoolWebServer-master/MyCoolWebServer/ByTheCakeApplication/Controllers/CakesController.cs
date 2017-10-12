@@ -35,9 +35,17 @@ namespace MyCoolWebServer.ByTheCakeApplication.Controllers
 
             values.Add(cake);
 
+            var strReader = new StreamReader(@"ByTheCakeApplication\Data\database.csv");
+
+            var id = strReader.ReadToEnd().Split(Environment.NewLine).Length;
+
+            strReader.Dispose();
+
+
+
             using (var streamWriter = new StreamWriter(@"ByTheCakeApplication\Data\database.csv", true))
             {
-                streamWriter.WriteLine($"{cake.Name},{cake.Price}");
+                streamWriter.WriteLine($"{id},{cake.Name},{cake.Price}");
             }
 
             return new ViewResponse
@@ -54,6 +62,7 @@ namespace MyCoolWebServer.ByTheCakeApplication.Controllers
 
         public IHttpResponse Search(string searchName)
         {
+
             var indexHtml = File.ReadAllText(@"ByTheCakeApplication\Resourses\Cakes\search.html");
 
             var searchResult = ExtractSearchedCakes(searchName);
@@ -72,31 +81,38 @@ namespace MyCoolWebServer.ByTheCakeApplication.Controllers
             using (StreamReader sr = new StreamReader(@"ByTheCakeApplication\Data\database.csv", true))
             {
 
-                var fullText = sr.ReadToEnd();
+                var result = sr.ReadToEnd().Split(Environment.NewLine).ToList();
 
-                var fullList = fullText.Split(Environment.NewLine).ToList();
-                sb.AppendLine("<pre>");
-                if (fullList.Count > 1)
+                var resultList = new List<Cake>();
+
+                for (int i = 0; i < result.Count - 1; i++)
                 {
-                   
-                    for (int i = 0; i < fullList.Count - 1; i++)
-                    {
-                        var lineTokens = fullList[i].Split(',');
-                        var name = lineTokens[0];
-                        var price = lineTokens[1];
+                    var element = result[i].Split(',');
 
-                        if (name.Contains(searchName.ToLower()))
+                    if (element[1].ToLower().Contains(searchName))
+                    {
+                        resultList.Add(new Cake()
                         {
-                            sb.AppendLine($"Name: {name}  Price: {price}");
-                        }
+                            Id = int.Parse(element[0]),
+                            Name = element[1],
+                            Price = decimal.Parse(element[2])
+                        });
+                    }
+                }
+
+                if (resultList.Count > 1)
+                {
+                    foreach (var cake in resultList)
+                    {
+                        sb.AppendLine($@"<div>Name: {cake.Name}  Price: {cake.Price}<a href=""/shopping/add/{cake.Id}""> Order</a></div>");
                     }
                 }
                 else
                 {
-                    sb.AppendLine("No results.");
+                    sb.AppendLine("<div>No results.</div>");
                 }
             }
-            sb.AppendLine("</pre>");
+
             return sb.ToString();
         }
     }
