@@ -1,12 +1,9 @@
-﻿
-
-namespace MyCoolWebServer
+﻿namespace MyCoolWebServer
 {
-    using ByTheCakeApplication;
+    using GameStoreApplication;
     using Server;
     using Server.Contracts;
     using Server.Routing;
-    using GameStoreApplication;
 
     public class Launcher : IRunnable
     {
@@ -17,7 +14,9 @@ namespace MyCoolWebServer
 
         public void Run()
         {
-            var mainApplication = new ByTheCakeApp();
+            var mainApplication = new GameStoreApp();
+            mainApplication.InitializeDatabase();
+
             var appRouteConfig = new AppRouteConfig();
             mainApplication.Configure(appRouteConfig);
 

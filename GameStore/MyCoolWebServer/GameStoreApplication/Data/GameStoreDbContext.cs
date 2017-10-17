@@ -10,13 +10,15 @@ namespace MyCoolWebServer.GameStoreApplication.Data
     public class GameStoreDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
+
         public DbSet<Game> Games { get; set; }
+
         public DbSet<UserGame> UserGames { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                @"Server=(localdb)/GameStoreDb;Database=GameStoreDB;Integrated Security=True;");
+                @"Server=(localdb)\MSSQLLocalDB;Database=GameStoreDb;Integrated Security=True;");
 
             base.OnConfiguring(optionsBuilder);
         }
