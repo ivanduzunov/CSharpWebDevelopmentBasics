@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.EntityFrameworkCore.Extensions.Internal;
+using MyCoolWebServer.GameStoreApplication.Common;
 using MyCoolWebServer.GameStoreApplication.Data;
 using MyCoolWebServer.GameStoreApplication.Models;
 using MyCoolWebServer.GameStoreApplication.Servises.Contracts;
@@ -30,33 +31,31 @@ namespace MyCoolWebServer.GameStoreApplication.Servises
                     Image = image,
                     Price = price,
                     Size = size,
-                    TrailerId = videoId,
+                    VideoId = videoId,
                     ReleaseDate = releaseDate
                 };
-
+                //Problem With the database
                 db.Add(game);
                 db.SaveChanges();
             }
         }
 
+
         public IEnumerable<AdminListGameViewModel> All()
         {
             using (var db = new GameStoreDbContext())
             {
-               var result = db
-                    .Games
-                    .Select
-                    (g => new AdminListGameViewModel
+                var result = db
+                    .Games.Select(g => new AdminListGameViewModel
                     {
                         Id = g.Id,
                         Name = g.Title,
                         Price = g.Price,
                         Size = g.Size
-                    })
-                    .ToList();
+                    }).ToList();
 
                 return result;
-            }          
+            }
         }
     }
 }

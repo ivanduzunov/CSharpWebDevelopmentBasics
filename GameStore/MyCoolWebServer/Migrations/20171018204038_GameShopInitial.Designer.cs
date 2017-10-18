@@ -8,11 +8,11 @@ using Microsoft.EntityFrameworkCore.Storage.Internal;
 using MyCoolWebServer.GameStoreApplication.Data;
 using System;
 
-namespace MyCoolWebServer.GameStoreApplication.Data.Migrations
+namespace MyCoolWebServer.Migrations
 {
     [DbContext(typeof(GameStoreDbContext))]
-    [Migration("20171015173526_GameStoreInitial")]
-    partial class GameStoreInitial
+    [Migration("20171018204038_GameShopInitial")]
+    partial class GameShopInitial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,15 +21,16 @@ namespace MyCoolWebServer.GameStoreApplication.Data.Migrations
                 .HasAnnotation("ProductVersion", "2.0.0-rtm-26452")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("MyCoolWebServer.GameStoreApplication.Data.Game", b =>
+            modelBuilder.Entity("MyCoolWebServer.GameStoreApplication.Models.Game", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Description")
-                        .HasMaxLength(200);
+                        .HasMaxLength(20);
 
-                    b.Property<int>("Image");
+                    b.Property<string>("Image")
+                        .IsRequired();
 
                     b.Property<decimal>("Price");
 
@@ -50,29 +51,30 @@ namespace MyCoolWebServer.GameStoreApplication.Data.Migrations
                     b.ToTable("Games");
                 });
 
-            modelBuilder.Entity("MyCoolWebServer.GameStoreApplication.Data.User", b =>
+            modelBuilder.Entity("MyCoolWebServer.GameStoreApplication.Models.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasMaxLength(20);
+                        .HasMaxLength(30);
 
-                    b.Property<string>("FullName");
+                    b.Property<string>("FullName")
+                        .HasMaxLength(30);
 
                     b.Property<bool>("IsAdmin");
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(20);
+                        .HasMaxLength(50);
 
                     b.HasKey("Id");
 
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("MyCoolWebServer.GameStoreApplication.Data.UserGame", b =>
+            modelBuilder.Entity("MyCoolWebServer.GameStoreApplication.Models.UserGame", b =>
                 {
                     b.Property<int>("UserId");
 
@@ -85,14 +87,14 @@ namespace MyCoolWebServer.GameStoreApplication.Data.Migrations
                     b.ToTable("UserGames");
                 });
 
-            modelBuilder.Entity("MyCoolWebServer.GameStoreApplication.Data.UserGame", b =>
+            modelBuilder.Entity("MyCoolWebServer.GameStoreApplication.Models.UserGame", b =>
                 {
-                    b.HasOne("MyCoolWebServer.GameStoreApplication.Data.Game", "Game")
+                    b.HasOne("MyCoolWebServer.GameStoreApplication.Models.Game", "Game")
                         .WithMany("Users")
                         .HasForeignKey("GameId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.HasOne("MyCoolWebServer.GameStoreApplication.Data.User", "User")
+                    b.HasOne("MyCoolWebServer.GameStoreApplication.Models.User", "User")
                         .WithMany("Games")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict);

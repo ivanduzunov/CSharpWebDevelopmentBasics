@@ -22,11 +22,11 @@ namespace MyCoolWebServer.GameStoreApplication.Controllers
     public class AccountController : BaseController
     {
         private const string RegisterView = @"account\register";
-        //private const string LoginView = @"account\login";
+        private const string LoginView = @"account\login";
 
         private readonly IUserServise users;
 
-        public AccountController(IHttpRequest request) 
+        public AccountController(IHttpRequest request)
             : base(request)
         {
             this.users = new UserServise();
@@ -55,6 +55,31 @@ namespace MyCoolWebServer.GameStoreApplication.Controllers
                 this.LoginUser(model.Email);
                 return this.RedirectResponse(HomePath);
             }
+        }
+
+        public IHttpResponse Login()
+            => this.FileViewResponse(LoginView);
+
+        public IHttpResponse Login(LoginViewModel model)
+        {
+            if (!this.ValidateModel(model))
+            {
+                return this.Login();
+            }
+
+            var findUser = this.users.Find(model.Email, model.Password);
+
+            if (!findUser)
+            {
+                this.ShowError("Can't find user with such a email!");
+                return this.Login();
+            }
+            else
+            {
+                this.LoginUser(model.Email);
+                return this.RedirectResponse(HomePath);
+            }
+
         }
 
         private void LoginUser(string email)

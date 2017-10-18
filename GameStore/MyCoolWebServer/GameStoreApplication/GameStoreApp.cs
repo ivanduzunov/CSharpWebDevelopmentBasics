@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using MyCoolWebServer.GameStoreApplication.Controllers;
 using MyCoolWebServer.GameStoreApplication.Data;
 using MyCoolWebServer.GameStoreApplication.ViewModels.Account;
+using MyCoolWebServer.GameStoreApplication.ViewModels.Admin;
 using MyCoolWebServer.Server.Contracts;
 using MyCoolWebServer.Server.Routing.Contracts;
 
@@ -45,6 +46,44 @@ namespace MyCoolWebServer.GameStoreApplication
                             Password = req.FormData["password"],
                             ConfirmPassword = req.FormData["confirm-password"]
                         }));
+
+
+            appRouteConfig
+                .Get(
+                    "/account/login",
+                    req => new AccountController(req).Login());
+
+            appRouteConfig
+                .Post
+                ("/account/login",
+                req => new AccountController(req).Login(
+                    new LoginViewModel
+                    {
+                        Email = req.FormData["email"],
+                        Password = req.FormData["password"],
+                    }
+                ));
+
+            appRouteConfig
+                .Get(
+                    "/game/add",
+                    req => new AdminController(req).AddGame());
+
+            appRouteConfig
+                .Post
+                ("/game/add",
+                    req => new AdminController(req).AddGame(
+                        new AdminAddGameViewModel
+                        {
+                           Description = req.FormData["description"],
+                           Image = req.FormData["thumbnail"],
+                           Price = decimal.Parse(req.FormData["price"]),
+                           ReleaseDate = DateTime.Parse(req.FormData["release-date"]),
+                           Size = double.Parse(req.FormData["size"]),
+                           Title = req.FormData["title"],
+                           VideoId = req.FormData["video-id"]
+                        }
+                    ));
 
         }
     }

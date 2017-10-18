@@ -30,6 +30,8 @@ namespace MyCoolWebServer.Infrastructure
 
         protected IHttpResponse FileViewResponse(string fileName)
         {
+            //replase if there is a data into ViewData and returns the View Response
+
             var result = this.ProcessFileHtml(fileName);
 
             if (this.ViewData.Any())
@@ -48,6 +50,8 @@ namespace MyCoolWebServer.Infrastructure
 
         protected void ShowError(string errorMessage)
         {
+            //adds the found error from in the ValidateModel method if there is one.
+
             this.ViewData["showError"] = "block";
             this.ViewData["error"] = errorMessage;
         }
@@ -56,6 +60,8 @@ namespace MyCoolWebServer.Infrastructure
         {
             var context = new ValidationContext(model);
             var results = new List<ValidationResult>();
+
+            //Try to validate. If NOT it foreaches all the validation results and if its NOT TRUE it calls ShowError method.
 
             if (Validator.TryValidateObject(model, context, results, true) == false)
             {
@@ -73,12 +79,14 @@ namespace MyCoolWebServer.Infrastructure
         }
 
 
-        private string ProcessFileHtml(string fileName)
+        private string ProcessFileHtml(string path)
         {
+            // Takes the layout and the content and returns the complete html
+
             var layoutHtml = File.ReadAllText(string.Format(DefaultPath, this.ApplicationDirectory, "layout"));
 
             var content = File
-                .ReadAllText(string.Format(DefaultPath, this.ApplicationDirectory, fileName));
+                .ReadAllText(string.Format(DefaultPath, this.ApplicationDirectory, path));
 
             var result = layoutHtml.Replace(ContentPlaceholder, content);
 

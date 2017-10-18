@@ -43,6 +43,6 @@ namespace MyCoolWebServer.GameStoreApplication.ViewModels.Admin
 
         [Display(Name = "Release Date")]
         [Required]
-        public DateTime? ReleaseDate { get; set; }
+        public DateTime ReleaseDate { get; set; }
     }
 }
