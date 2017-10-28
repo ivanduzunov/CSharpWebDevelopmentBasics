@@ -1,0 +1,15 @@
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\bin\Debug\netcoreapp2.0\ModPanel.App.deps.json
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\bin\Debug\netcoreapp2.0\ModPanel.App.runtimeconfig.json
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\bin\Debug\netcoreapp2.0\ModPanel.App.runtimeconfig.dev.json
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\bin\Debug\netcoreapp2.0\ModPanel.App.dll
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\bin\Debug\netcoreapp2.0\SimpleMvc.Framework.dll
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\bin\Debug\netcoreapp2.0\WebServer.dll
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\bin\Debug\netcoreapp2.0\SimpleMvc.Framework.pdb
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\bin\Debug\netcoreapp2.0\WebServer.pdb
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\obj\Debug\netcoreapp2.0\ModPanel.App.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\obj\Debug\netcoreapp2.0\ModPanel.App.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\obj\Debug\netcoreapp2.0\ModPanel.App.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\obj\Debug\netcoreapp2.0\ModPanel.App.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\bin\Debug\netcoreapp2.0\ModPanel.App.pdb
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\obj\Debug\netcoreapp2.0\ModPanel.App.dll
+C:\Users\Ivan\Desktop\Skeleton\ModPanel.App\obj\Debug\netcoreapp2.0\ModPanel.App.pdb
