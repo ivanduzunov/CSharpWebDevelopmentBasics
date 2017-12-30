@@ -11,5 +11,9 @@ namespace ExamApp.Services.Contracts
         IEnumerable<ContestListingModel> All(int id);
 
         bool Create(string name, int userId);
+
+        bool HasPermitionToEditAndDeleteContest(int contestId, int userId);
+
+        string GetContestName(int id);
     }
 }

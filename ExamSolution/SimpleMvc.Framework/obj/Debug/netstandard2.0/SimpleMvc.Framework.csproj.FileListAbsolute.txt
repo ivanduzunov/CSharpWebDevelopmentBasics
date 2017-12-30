@@ -9,3 +9,14 @@ C:\Users\Ivan\Documents\Visual Studio 2017\Projects\ExamSolution\SimpleMvc.Frame
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\ExamSolution\SimpleMvc.Framework\obj\Debug\netstandard2.0\SimpleMvc.Framework.AssemblyInfo.cs
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\ExamSolution\SimpleMvc.Framework\obj\Debug\netstandard2.0\SimpleMvc.Framework.dll
 C:\Users\Ivan\Documents\Visual Studio 2017\Projects\ExamSolution\SimpleMvc.Framework\obj\Debug\netstandard2.0\SimpleMvc.Framework.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamSolution\SimpleMvc.Framework\bin\Debug\netstandard2.0\SimpleMvc.Framework.deps.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamSolution\SimpleMvc.Framework\bin\Debug\netstandard2.0\SimpleMvc.Framework.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamSolution\SimpleMvc.Framework\bin\Debug\netstandard2.0\SimpleMvc.Framework.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamSolution\SimpleMvc.Framework\bin\Debug\netstandard2.0\WebServer.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamSolution\SimpleMvc.Framework\bin\Debug\netstandard2.0\WebServer.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamSolution\SimpleMvc.Framework\obj\Debug\netstandard2.0\SimpleMvc.Framework.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamSolution\SimpleMvc.Framework\obj\Debug\netstandard2.0\SimpleMvc.Framework.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamSolution\SimpleMvc.Framework\obj\Debug\netstandard2.0\SimpleMvc.Framework.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamSolution\SimpleMvc.Framework\obj\Debug\netstandard2.0\SimpleMvc.Framework.AssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamSolution\SimpleMvc.Framework\obj\Debug\netstandard2.0\SimpleMvc.Framework.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamSolution\SimpleMvc.Framework\obj\Debug\netstandard2.0\SimpleMvc.Framework.pdb

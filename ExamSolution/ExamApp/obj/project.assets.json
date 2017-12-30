@@ -3436,11 +3436,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\ExamSolution\\ExamApp\\ExamApp.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamSolution\\ExamApp\\ExamApp.csproj",
       "projectName": "ExamApp",
-      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\ExamSolution\\ExamApp\\ExamApp.csproj",
+      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamSolution\\ExamApp\\ExamApp.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\ExamSolution\\ExamApp\\obj\\",
+      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamSolution\\ExamApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3459,11 +3459,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\ExamSolution\\SimpleMvc.Framework\\SimpleMvc.Framework.csproj": {
-              "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\ExamSolution\\SimpleMvc.Framework\\SimpleMvc.Framework.csproj"
+            "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamSolution\\SimpleMvc.Framework\\SimpleMvc.Framework.csproj": {
+              "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamSolution\\SimpleMvc.Framework\\SimpleMvc.Framework.csproj"
             },
-            "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\ExamSolution\\WebServer\\WebServer.csproj": {
-              "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\ExamSolution\\WebServer\\WebServer.csproj"
+            "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamSolution\\WebServer\\WebServer.csproj": {
+              "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamSolution\\WebServer\\WebServer.csproj"
             }
           }
         }

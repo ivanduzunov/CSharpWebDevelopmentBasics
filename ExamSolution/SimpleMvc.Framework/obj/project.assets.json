@@ -202,11 +202,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\ExamSolution\\SimpleMvc.Framework\\SimpleMvc.Framework.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamSolution\\SimpleMvc.Framework\\SimpleMvc.Framework.csproj",
       "projectName": "SimpleMvc.Framework",
-      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\ExamSolution\\SimpleMvc.Framework\\SimpleMvc.Framework.csproj",
+      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamSolution\\SimpleMvc.Framework\\SimpleMvc.Framework.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\ExamSolution\\SimpleMvc.Framework\\obj\\",
+      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamSolution\\SimpleMvc.Framework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -225,8 +225,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\ExamSolution\\WebServer\\WebServer.csproj": {
-              "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\ExamSolution\\WebServer\\WebServer.csproj"
+            "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamSolution\\WebServer\\WebServer.csproj": {
+              "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamSolution\\WebServer\\WebServer.csproj"
             }
           }
         }

@@ -12,6 +12,7 @@ namespace ExamApp.Controllers
     using Models.Contest;
     using Data;
     using System.Linq;
+    using System.Runtime.InteropServices;
 
     public class ContestsController : BaseController
     {
@@ -94,5 +95,29 @@ namespace ExamApp.Controllers
             return this.Redirect("/contests/index");
         }
 
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var userId = this.Profile.Id;
+
+            var hasPermitionToDelete = contests.HasPermitionToEditAndDeleteContest(id, userId);
+
+            if (!hasPermitionToDelete)
+            {
+                return this.Redirect("/contests/index");
+            }
+
+            this.ViewModel["contestName"] = contests.GetContestName(id);
+
+            this.ViewModel["contestId"] = id.ToString();
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Delete()
+        {
+            return null;
+        }
     }
 }

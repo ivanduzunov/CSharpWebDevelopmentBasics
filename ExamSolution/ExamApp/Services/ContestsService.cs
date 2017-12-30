@@ -28,12 +28,12 @@ namespace ExamApp.Services
                      .ToList();
 
                 return allContests;
-            }        
+            }
         }
 
         public bool Create(string name, int userId)
         {
-            if (name!=null)
+            if (name != null)
             {
                 using (var db = new ExamAppDbContext())
                 {
@@ -51,6 +51,33 @@ namespace ExamApp.Services
                 }
             }
             return false;
+        }
+
+        public string GetContestName(int id)
+        {
+            using (var db = new ExamAppDbContext())
+            {             
+                var contest = db.Contests.Where(c => c.Id == id).FirstOrDefault();
+
+                return contest.Name;
+            }
+
+        }
+
+        public bool HasPermitionToEditAndDeleteContest(int contestId, int userId)
+        {
+            using (var db = new ExamAppDbContext())
+            {
+                var user = db.Users.Where(u => u.Id == userId).FirstOrDefault();
+                var contest = db.Contests.Where(c => c.Id == contestId).FirstOrDefault();
+
+                if (user.IsAdmin || contest.CreatorId == userId)
+                {
+                    return true;
+                }
+
+                return false;
+            }
         }
     }
 }
