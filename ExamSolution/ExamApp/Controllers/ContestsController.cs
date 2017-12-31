@@ -59,7 +59,7 @@ namespace ExamApp.Controllers
                     {
                         contestsList.Append($@" <td>
                             <a href=""/contests/edit/{contest.Id}"" class=""btn btn-sm btn-warning"" >Edit</a>
-                             <a href=""/contests/delete/{contest.Id}"" class=""btn btn-sm btn-danger"">Delete</a>
+                             <a href=""/contests/delete?contestId={contest.Id}"" class=""btn btn-sm btn-danger"">Delete</a>
                         </td> </tr>");
                     }
                     else
@@ -96,28 +96,30 @@ namespace ExamApp.Controllers
         }
 
         [HttpGet]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(int contestId)
         {
             var userId = this.Profile.Id;
 
-            var hasPermitionToDelete = contests.HasPermitionToEditAndDeleteContest(id, userId);
+            var hasPermitionToDelete = contests.HasPermitionToEditAndDeleteContest(contestId, userId);
 
             if (!hasPermitionToDelete)
             {
                 return this.Redirect("/contests/index");
             }
 
-            this.ViewModel["contestName"] = contests.GetContestName(id);
+            this.ViewModel["contestName"] = contests.GetContestName(contestId);
 
-            this.ViewModel["contestId"] = id.ToString();
+            this.ViewModel["contestId"] = contestId.ToString();
 
             return View();
         }
 
         [HttpPost]
-        public IActionResult Delete()
+        public IActionResult ConfirmDelete(int contestId)
         {
-            return null;
+            var success = contests.Delete(contestId);
+
+            return this.Redirect("/contests/index");
         }
     }
 }

@@ -17,7 +17,9 @@ namespace ExamApp.Services
             using (var db = new ExamAppDbContext())
             {
                 var allContests =
-                     db.Contests.Select(c =>
+                     db.Contests
+                     .Where(c => c.IsDeleted == false)
+                     .Select(c =>
                      new ContestListingModel
                      {
                          Id = c.Id,
@@ -51,6 +53,22 @@ namespace ExamApp.Services
                 }
             }
             return false;
+        }
+
+        public object Delete(int contestId)
+        {
+            using (var db = new ExamAppDbContext())
+            {
+                var contest = db.Contests
+                    .Where(c => c.Id == contestId)
+                    .FirstOrDefault();
+
+                contest.IsDeleted = true;
+
+                db.SaveChanges();
+
+                return true;
+            }
         }
 
         public string GetContestName(int id)

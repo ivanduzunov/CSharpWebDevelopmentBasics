@@ -15,5 +15,6 @@ namespace ExamApp.Services.Contracts
         bool HasPermitionToEditAndDeleteContest(int contestId, int userId);
 
         string GetContestName(int id);
+        object Delete(int contestId);
     }
 }

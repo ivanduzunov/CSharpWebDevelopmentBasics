@@ -7,22 +7,17 @@
                 </div>
                 <hr />
 
-                <form method="post">
-                    <div class="form-group row">
-                        <label class="col-form-label" for="email"><strong>Contest Name</strong></label>
-                        <input name="Name" type="text" class="form-control" value="{{{contestName}}}" id="contestName" readonly />
-                    </div>
 
                     <div class="form-group row">
-                        <label class="col-form-label" for="email"><strong>Contest Name</strong></label>
-                        <input name="Id" type="hidden" class="form-control" value="{{{contestId}}}" id="contestId" />
+                        <label class="col-form-label" for="contestName"><strong>Contest Name</strong></label>
+                        <input name="contestName" type="text" class="form-control" value="{{{contestName}}}" id="contestName" readonly />
                     </div>
 
-                    <input type="submit" class="btn col btn-outline-danger" value="Delete" />
-                    <a class="btn col btn-outline-dark" href="/contests/index" value="Back">Back</a>
-                </form>
+                <a type="post" href="/contests/ConfirmDelete?contestId={{{contestId}}}" class="btn col btn-outline-danger">Delete</a>
+                <a href="/contests/index" class="btn col btn-outline-primary">Back</a>
                 <br />
             </div>
         </div>
     </div>
 </main>
+        
