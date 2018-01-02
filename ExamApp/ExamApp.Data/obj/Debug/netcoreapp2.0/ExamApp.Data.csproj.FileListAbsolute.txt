@@ -1,0 +1,9 @@
+C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Data\bin\Debug\netcoreapp2.0\ExamApp.Data.deps.json
+C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Data\bin\Debug\netcoreapp2.0\ExamApp.Data.dll
+C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Data\obj\Debug\netcoreapp2.0\ExamApp.Data.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Data\obj\Debug\netcoreapp2.0\ExamApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Data\obj\Debug\netcoreapp2.0\ExamApp.Data.AssemblyInfoInputs.cache
+C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Data\obj\Debug\netcoreapp2.0\ExamApp.Data.AssemblyInfo.cs
+C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Data\bin\Debug\netcoreapp2.0\ExamApp.Data.pdb
+C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Data\obj\Debug\netcoreapp2.0\ExamApp.Data.dll
+C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Data\obj\Debug\netcoreapp2.0\ExamApp.Data.pdb
