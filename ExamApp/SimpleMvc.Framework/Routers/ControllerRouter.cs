@@ -60,6 +60,9 @@
             }
         }
 
+        protected virtual Controller CreateController(Type controllerType)
+            => Activator.CreateInstance(controllerType) as Controller;
+
         private void PrepareControllerAndActionNames(IHttpRequest request)
         {
             var pathParts = request.Path.Split(
@@ -84,7 +87,7 @@
             this.controllerName = $"{pathParts[0].Capitalize()}{MvcContext.Get.ControllerSuffix}";
             this.actionName = pathParts[1].Capitalize();
         }
-        
+
         private MethodInfo GetActionForExecution()
         {
             foreach (var method in this.GetSuitableMethods())
@@ -146,10 +149,10 @@
                 return null;
             }
 
-            this.controllerInstance = Activator.CreateInstance(controllerType) as Controller;
+            this.controllerInstance = this.CreateController(controllerType);
             return this.controllerInstance;
         }
-        
+
         private void PrepareMethodParameters(MethodInfo methodInfo)
         {
             var parameters = methodInfo.GetParameters();

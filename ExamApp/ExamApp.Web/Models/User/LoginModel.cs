@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ExamApp.Models.User
+﻿namespace ExamApp.Web.Models.User
 {
     using Infrastructure.Validation;
 

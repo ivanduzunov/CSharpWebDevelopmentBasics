@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>ExamApp.Web</AssemblyName>
     <RootNamespace>ExamApp.Web</RootNamespace>
+    <StartupObject>ExamApp.Launcher</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
