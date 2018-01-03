@@ -3401,11 +3401,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ivan\\Desktop\\ExamSolution\\ExamApp.Data\\ExamApp.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamApp\\ExamApp.Data\\ExamApp.Data.csproj",
       "projectName": "ExamApp.Data",
-      "projectPath": "C:\\Users\\Ivan\\Desktop\\ExamSolution\\ExamApp.Data\\ExamApp.Data.csproj",
+      "projectPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamApp\\ExamApp.Data\\ExamApp.Data.csproj",
       "packagesPath": "C:\\Users\\Ivan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ivan\\Desktop\\ExamSolution\\ExamApp.Data\\obj\\",
+      "outputPath": "C:\\Users\\Ivan\\Documents\\Visual Studio 2017\\Projects\\CSharpWebDevelopmentBasics\\ExamApp\\ExamApp.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

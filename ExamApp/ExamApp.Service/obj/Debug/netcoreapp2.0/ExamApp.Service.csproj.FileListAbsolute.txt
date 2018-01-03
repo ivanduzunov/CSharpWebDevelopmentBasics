@@ -9,3 +9,14 @@ C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Service\obj\Debug\netcoreapp2.0\ExamA
 C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Service\obj\Debug\netcoreapp2.0\ExamApp.Service.AssemblyInfo.cs
 C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Service\obj\Debug\netcoreapp2.0\ExamApp.Service.dll
 C:\Users\Ivan\Desktop\ExamSolution\ExamApp.Service\obj\Debug\netcoreapp2.0\ExamApp.Service.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Service\bin\Debug\netcoreapp2.0\ExamApp.Service.deps.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Service\bin\Debug\netcoreapp2.0\ExamApp.Service.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Service\bin\Debug\netcoreapp2.0\ExamApp.Service.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Service\bin\Debug\netcoreapp2.0\ExamApp.Data.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Service\bin\Debug\netcoreapp2.0\ExamApp.Data.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Service\obj\Debug\netcoreapp2.0\ExamApp.Service.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Service\obj\Debug\netcoreapp2.0\ExamApp.Service.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Service\obj\Debug\netcoreapp2.0\ExamApp.Service.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Service\obj\Debug\netcoreapp2.0\ExamApp.Service.AssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Service\obj\Debug\netcoreapp2.0\ExamApp.Service.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Service\obj\Debug\netcoreapp2.0\ExamApp.Service.pdb

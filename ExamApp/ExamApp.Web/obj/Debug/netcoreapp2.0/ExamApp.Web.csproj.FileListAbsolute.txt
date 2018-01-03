@@ -17,3 +17,22 @@ C:\Users\Ivan\Desktop\ExamSolution\ExamApp\obj\Debug\netcoreapp2.0\ExamApp.Web.A
 C:\Users\Ivan\Desktop\ExamSolution\ExamApp\obj\Debug\netcoreapp2.0\ExamApp.Web.AssemblyInfo.cs
 C:\Users\Ivan\Desktop\ExamSolution\ExamApp\obj\Debug\netcoreapp2.0\ExamApp.Web.dll
 C:\Users\Ivan\Desktop\ExamSolution\ExamApp\obj\Debug\netcoreapp2.0\ExamApp.Web.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\ExamApp.Web.deps.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\ExamApp.Web.runtimeconfig.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\ExamApp.Web.runtimeconfig.dev.json
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\ExamApp.Web.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\ExamApp.Web.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\ExamApp.Data.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\ExamApp.Service.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\SimpleMvc.Framework.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\WebServer.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\ExamApp.Service.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\ExamApp.Data.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\SimpleMvc.Framework.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\bin\Debug\netcoreapp2.0\WebServer.pdb
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\obj\Debug\netcoreapp2.0\ExamApp.Web.csprojResolveAssemblyReference.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\obj\Debug\netcoreapp2.0\ExamApp.Web.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\obj\Debug\netcoreapp2.0\ExamApp.Web.AssemblyInfoInputs.cache
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\obj\Debug\netcoreapp2.0\ExamApp.Web.AssemblyInfo.cs
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\obj\Debug\netcoreapp2.0\ExamApp.Web.dll
+C:\Users\Ivan\Documents\Visual Studio 2017\Projects\CSharpWebDevelopmentBasics\ExamApp\ExamApp.Web\obj\Debug\netcoreapp2.0\ExamApp.Web.pdb
