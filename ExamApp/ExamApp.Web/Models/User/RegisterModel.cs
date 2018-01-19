@@ -6,6 +6,9 @@
     public class RegisterModel
     {
         [Required]
+        public string Name { get; set; }
+
+        [Required]
         [Email]
         public string Email { get; set; }
 
@@ -14,8 +17,6 @@
         public string Password { get; set; }
 
         [Required]
-        public string ConfirmPassword { get; set; }
-
-        public string FullName { get; set; }
+        public string RepeatPassword { get; set; }
     }
 }

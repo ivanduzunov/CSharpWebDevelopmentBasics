@@ -21,12 +21,17 @@
             this.users = new UserService();
         }
 
-        public IActionResult Register() => this.View();
+        public IActionResult Register()
+        {
+            this.ViewModel["title"] = "Register";
+
+            return this.View();
+        }
 
         [HttpPost]
         public IActionResult Register(RegisterModel model)
         {
-            if (model.Password != model.ConfirmPassword)
+            if (model.Password != model.RepeatPassword)
             {
                 this.ShowError(PasswordsNotMatchError);
                 return this.View();
@@ -39,7 +44,7 @@
             }
 
             var success = this.users
-               .Create(model.Email, model.Password, model.FullName);
+               .Create(model.Email, model.Password, model.Name);
 
             if (success)
             {
@@ -53,7 +58,12 @@
 
         }
 
-        public IActionResult Login() => this.View();
+        public IActionResult Login()
+        {
+            this.ViewModel["title"] = "LogIn";
+
+            return this.View();
+        } 
 
         [HttpPost]
         public IActionResult Login(LogInModel model)

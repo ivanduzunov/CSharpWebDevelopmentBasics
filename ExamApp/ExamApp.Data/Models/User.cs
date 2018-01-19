@@ -1,6 +1,7 @@
 ﻿namespace ExamApp.Data.Models
 {
     using System.ComponentModel.DataAnnotations;
+    using System.Collections.Generic;
 
     public class User
     {
@@ -18,8 +19,10 @@
         [Required]
         [MinLength(4)]
         [MaxLength(50)]
-        public string FullName { get; set; }
+        public string Name { get; set; }
 
         public bool IsAdmin { get; set; }
+
+        public List<Ticket> Tickets { get; set; } = new List<Ticket>();
     }
 }

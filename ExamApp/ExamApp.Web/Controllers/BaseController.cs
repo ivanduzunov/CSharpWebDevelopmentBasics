@@ -52,10 +52,18 @@
                         .First(u => u.Email == this.User.Name);
 
                     this.ViewModel["userDisplay"] = "flex";
-                    this.ViewModel["adminDisplay"] = "flex";
 
+                    if (IsAdmin)
+                    {
+                        this.ViewModel["adminDisplay"] = "flex";
+                    }
+                    else
+                    {
+                        this.ViewModel["adminDisplay"] = "none";
+                    }
                 }
             }
+
         }
 
         protected bool IsAdmin => this.User.IsAuthenticated && this.Profile.IsAdmin;

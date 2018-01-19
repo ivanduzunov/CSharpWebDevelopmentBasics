@@ -8,8 +8,4 @@
     <ProjectReference Include="..\ExamApp.Data\ExamApp.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>

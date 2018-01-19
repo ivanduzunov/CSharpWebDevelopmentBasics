@@ -2,57 +2,41 @@
 <html lang="en">
 
 <head>
-    <title>Judge - Home</title>
+    <title>{{{title}}}</title>
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-          crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
-
-
 <body>
-    <header>
+    <nav class="nav-register" style="display: {{{anonymousDisplay}}}">
+        <div class="left-container" >
+            <ul>
+                <li><a href="/home/index">Flights</a></li>
+                <li><a href="/users/login">Login</a></li>
+                <li><a href="/users/register">Register</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="/home/index">Exam</a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-controls="nav-collapse"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="nav-collapse">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
-                    <ul class="navbar-nav" style="display: {{{anonymousDisplay}}}">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/users/login">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/users/register">Register</a>
-                        </li>
-                    </ul>
-
-                    <ul class="navbar-nav" style="display: {{{userDisplay}}}">
-                       
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contests/index">Contests</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="submissions.html">Submissions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/users/logout">Logout</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <nav style="display: {{{userDisplay}}}">
+        <div class="left-container">
+            <ul>
+                <li><a href="/home/index">Flights</a></li>
+                <li><a href="">My Tickets</a></li>
+            </ul>
+        </div>    
+        <div class="right-container">
+            <span>Welcome, {{{userName}}} |</span>
+            <a href="/users/logout" class="log-out">Logout</a>
+            <a href=""><img src="cart.png" alt="" class="cart"></a>
+        </div>
+    </nav>
 
     <br />
     <div class="row text-center">
@@ -66,11 +50,6 @@
 
     {{{content}}}
 
-    <footer>
-        <div class="container modal-footer">
-            <p>&copy; 2017 - Software University</p>
-        </div>
-    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

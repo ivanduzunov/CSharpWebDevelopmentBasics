@@ -14,4 +14,8 @@
     <ProjectReference Include="..\WebServer\WebServer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Flight\" />
+  </ItemGroup>
+
 </Project>

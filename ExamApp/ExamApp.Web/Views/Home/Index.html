@@ -1,15 +1,20 @@
-﻿<main>
-    <div class="row justify-content-center" style="display: {{{userDisplay}}}">
-        <div class="container text-center">
-            <br />
-            <div class="jumbotron">
-                <h1 class="display-3">Hello, {{{usersName}}}!</h1>
-                <p class="lead">You can view all contests or review your submissions.</p>
-                <p>
-                    <a class="btn btn-primary btn-lg" href="/contests/index" role="button">Contests</a>
-                    <a class="btn btn-primary btn-lg" href="submissions.html" role="button">Submissions</a>
-                </p>
-            </div>
-        </div>
-    </div>
+﻿
+<main>
+    <form action="" class="catalog-form">
+        <label>Destination:</label>
+        <input type="text" placeholder="Destination">
+        <label>Origin:</label>
+        <input type="text" placeholder="Origin">
+        <label>Departure:</label>
+        <input type="text" placeholder="Departure">
+        <input type="submit" class="search" value="Search">
+
+        {{{addFlightButton}}}
+
+    </form>
+
+    <section class="added-flights">
+        {{{flights}}}
+    </section>
+    <footer>SoftUni Airlines</footer>
 </main>

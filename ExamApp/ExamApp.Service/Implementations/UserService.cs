@@ -14,7 +14,7 @@
         }
 
 
-        public bool Create(string email, string password, string fullName)
+        public bool Create(string email, string password, string Name)
         {
             if (this.UserExists(email, password))
             {
@@ -27,7 +27,7 @@
             {
                 Email = email,
                 Password = password,
-                FullName = fullName,
+                Name = Name,
                 IsAdmin = isAdmin
             };
 

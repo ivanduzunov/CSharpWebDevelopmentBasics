@@ -20,6 +20,59 @@ namespace ExamApp.Data.Migrations
                 .HasAnnotation("ProductVersion", "2.0.1-rtm-125")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("ExamApp.Data.Models.Flight", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("Date");
+
+                    b.Property<string>("Destination")
+                        .IsRequired()
+                        .HasMaxLength(30);
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired();
+
+                    b.Property<bool>("IsDeleted");
+
+                    b.Property<bool>("IsPublic");
+
+                    b.Property<string>("Origin")
+                        .IsRequired()
+                        .HasMaxLength(30);
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Flights");
+                });
+
+            modelBuilder.Entity("ExamApp.Data.Models.Ticket", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Class")
+                        .IsRequired()
+                        .HasMaxLength(20);
+
+                    b.Property<int>("CustomerId");
+
+                    b.Property<int>("FlightId");
+
+                    b.Property<bool>("IsDeleted");
+
+                    b.Property<decimal>("Price");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CustomerId");
+
+                    b.HasIndex("FlightId");
+
+                    b.ToTable("Tickets");
+                });
+
             modelBuilder.Entity("ExamApp.Data.Models.User", b =>
                 {
                     b.Property<int>("Id")
@@ -29,11 +82,11 @@ namespace ExamApp.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(50);
 
-                    b.Property<string>("FullName")
+                    b.Property<bool>("IsAdmin");
+
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50);
-
-                    b.Property<bool>("IsAdmin");
 
                     b.Property<string>("Password")
                         .IsRequired()
@@ -45,6 +98,19 @@ namespace ExamApp.Data.Migrations
                         .IsUnique();
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("ExamApp.Data.Models.Ticket", b =>
+                {
+                    b.HasOne("ExamApp.Data.Models.User", "Customer")
+                        .WithMany("Tickets")
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Restrict);
+
+                    b.HasOne("ExamApp.Data.Models.Flight", "Flight")
+                        .WithMany("Tickets")
+                        .HasForeignKey("FlightId")
+                        .OnDelete(DeleteBehavior.Restrict);
                 });
 #pragma warning restore 612, 618
         }
